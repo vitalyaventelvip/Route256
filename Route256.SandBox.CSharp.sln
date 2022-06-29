@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B.SumForPay", "B.SumForPay\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C.ElectronicTable", "C.ElectronicTable\C.ElectronicTable.csproj", "{69BC044C-D277-4C76-BF3A-2AE6134596BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D.RegistrationSubsystem", "D.RegistrationSubsystem\D.RegistrationSubsystem.csproj", "{17F07D73-0B74-4036-93FB-1FC2FAD63DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D.RegistrationSubsystem", "D.RegistrationSubsystem\D.RegistrationSubsystem.csproj", "{17F07D73-0B74-4036-93FB-1FC2FAD63DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.AddressBook", "E.AddressBook\E.AddressBook.csproj", "{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{17F07D73-0B74-4036-93FB-1FC2FAD63DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F07D73-0B74-4036-93FB-1FC2FAD63DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F07D73-0B74-4036-93FB-1FC2FAD63DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
