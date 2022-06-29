@@ -1,30 +1,27 @@
 ﻿using System.Text.RegularExpressions;
 
-//const int MinLoginLen = 2;
-//const int MaxLoginLen = 24;
-const string LoginPattern = "[0-9a-zA-Z_][0-9a-zA-Z_-]{1,23}";
-
+const string Pattern = "^[0-9a-z_][0-9a-z_-]{1,23}$";
 const string Failed = "NO";
 const string Success = "YES";
 
-var regex = new Regex(LoginPattern);
 var testCaseCount = int.Parse(Console.ReadLine());
 while (testCaseCount > 0)
 {
-    var registredLogins = new HashSet<string>();
     var registrationCount = int.Parse(Console.ReadLine());
     var loginCollection = new string[registrationCount];
     for (int j = 0; j < registrationCount; j++)
     {
-        loginCollection[j] = Console.ReadLine();
+        loginCollection[j] = Console.ReadLine().ToLower();
     }
-    Console.ReadLine();
+
+    var registeredLoginCollection = new HashSet<string>();
     for (int j = 0; j < loginCollection.Length; j++)
     {
         var login = loginCollection[j];
-        if (regex.IsMatch(login) && !registredLogins.Contains(login.ToLower()))
+        if (Regex.IsMatch(login, Pattern, RegexOptions.IgnoreCase)
+            && !registeredLoginCollection.Contains(login))
         {
-            registredLogins.Add(login.ToLower());
+            registeredLoginCollection.Add(login);
             Console.WriteLine(Success);
         }
         else
@@ -35,5 +32,3 @@ while (testCaseCount > 0)
     Console.WriteLine();
     testCaseCount--;
 }
-
-Console.ReadKey();
