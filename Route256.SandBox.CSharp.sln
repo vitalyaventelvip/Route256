@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C.ElectronicTable", "C.Elec
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D.RegistrationSubsystem", "D.RegistrationSubsystem\D.RegistrationSubsystem.csproj", "{17F07D73-0B74-4036-93FB-1FC2FAD63DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.AddressBook", "E.AddressBook\E.AddressBook.csproj", "{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E.AddressBook", "E.AddressBook\E.AddressBook.csproj", "{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F.TrainTicketingSystem", "F.TrainTicketingSystem\F.TrainTicketingSystem.csproj", "{38E9D079-FC5B-462B-85A3-47ACA7038314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9833CF5F-A8A2-419C-854D-AD021B0EBEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E9D079-FC5B-462B-85A3-47ACA7038314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E9D079-FC5B-462B-85A3-47ACA7038314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E9D079-FC5B-462B-85A3-47ACA7038314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E9D079-FC5B-462B-85A3-47ACA7038314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
