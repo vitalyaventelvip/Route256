@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C.PairProgramming", "C.Pair
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.Report", "E.Report\E.Report.csproj", "{422CCCEF-0660-4E5C-856F-03EF758E996E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F.TimeSpans", "F.TimeSpans\F.TimeSpans.csproj", "{BEFDC10A-7842-4EA9-900B-58494329B6CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{422CCCEF-0660-4E5C-856F-03EF758E996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422CCCEF-0660-4E5C-856F-03EF758E996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422CCCEF-0660-4E5C-856F-03EF758E996E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFDC10A-7842-4EA9-900B-58494329B6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFDC10A-7842-4EA9-900B-58494329B6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFDC10A-7842-4EA9-900B-58494329B6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFDC10A-7842-4EA9-900B-58494329B6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
