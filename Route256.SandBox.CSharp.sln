@@ -17,19 +17,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F.TrainTicketingSystem", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C.PairProgramming", "C.PairProgramming\C.PairProgramming.csproj", "{167EE5F2-F907-4AC8-8566-BB9F578B6E36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E.Report", "E.Report\E.Report.csproj", "{422CCCEF-0660-4E5C-856F-03EF758E996E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E.Report", "E.Report\E.Report.csproj", "{422CCCEF-0660-4E5C-856F-03EF758E996E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F.TimeSpans", "F.TimeSpans\F.TimeSpans.csproj", "{BEFDC10A-7842-4EA9-900B-58494329B6CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "F.TimeSpans", "F.TimeSpans\F.TimeSpans.csproj", "{BEFDC10A-7842-4EA9-900B-58494329B6CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G.PossibleFriends", "G.PossibleFriends\G.PossibleFriends.csproj", "{FC7579E1-84D3-451A-9445-92DBC04A6EE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "G.PossibleFriends", "G.PossibleFriends\G.PossibleFriends.csproj", "{FC7579E1-84D3-451A-9445-92DBC04A6EE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H.MapValidation", "H.MapValidation\H.MapValidation.csproj", "{70B7A64C-DA98-4D08-855E-D4F1A2320D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "H.MapValidation", "H.MapValidation\H.MapValidation.csproj", "{70B7A64C-DA98-4D08-855E-D4F1A2320D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B.SeaBattle", "B.SeaBattle\B.SeaBattle.csproj", "{AB218C6F-A1D5-4023-9612-201F5EA33206}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "B.SeaBattle", "B.SeaBattle\B.SeaBattle.csproj", "{AB218C6F-A1D5-4023-9612-201F5EA33206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.AutoNumbers", "C.AutoNumbers\C.AutoNumbers.csproj", "{12CEFDF4-A449-472D-B97A-4D94E8F48522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C.AutoNumbers", "C.AutoNumbers\C.AutoNumbers.csproj", "{12CEFDF4-A449-472D-B97A-4D94E8F48522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D.CompetitionResults", "D.CompetitionResults\D.CompetitionResults.csproj", "{926FEC12-604B-48E6-9B03-615500AB1C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "D.CompetitionResults", "D.CompetitionResults\D.CompetitionResults.csproj", "{926FEC12-604B-48E6-9B03-615500AB1C5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
