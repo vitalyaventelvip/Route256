@@ -1,2 +1,2 @@
-# Route256.SandBox.CSharp
-Route256 SandBox C#
+# Route 256
+Sandbox for training and contests on Route 256.
